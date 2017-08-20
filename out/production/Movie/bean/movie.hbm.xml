@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2014-8-19 15:24:19 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="bean.movie" table="movie1">
+        <id name="Mid" type="java.lang.Integer">
+            <column name="Mid" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="description" />
+        </property>
+        <property name="Director" type="java.lang.String">
+            <column name="Director" />
+        </property>
+        <property name="IMDb" type="double">
+            <column name="IMDb" />
+        </property>
+        <property name="douStar" type="double">
+            <column name="douStar" />
+        </property>
+        <property name="download" type="java.lang.String">
+            <column name="download" />
+        </property>
+       <property name="type" type="java.lang.String">
+            <column name="type" />
+        </property>
+	</class>
+ 
+</hibernate-mapping>
